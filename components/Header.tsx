@@ -45,11 +45,14 @@ export function Header() {
             onClick={() => scrollToSection('home')}
             className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            <span className="text-primary">HIẾU TRẦN 94</span>
+            <span className="hidden md:inline">HIẾU TRẦN </span>
+            <span className="text-primary">STUDIO</span>
             <span className="hidden md:inline text-muted-foreground"> - </span>
             <span className="hidden md:inline text-accent">AUTOMATION</span>
             <span className="hidden md:inline text-muted-foreground"> - </span>
-            <span className="hidden md:inline">STUDIO</span>
+            <span className="hidden md:inline">MEDIA</span>
+            <span className="hidden md:inline text-muted-foreground"> - </span>
+            <span className="text-primary">LIVESTREAM</span>
           </button>
 
           {/* Desktop Navigation */}

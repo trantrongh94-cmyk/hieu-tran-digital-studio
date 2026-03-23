@@ -101,6 +101,13 @@ export function HeroSection() {
             </Button>
             <Button
               size="lg"
+              className="bg-cyan-400 hover:bg-cyan-300 text-black font-semibold px-8"
+              onClick={() => scrollToSection('pricing')}
+            >
+              Xem bảng giá dịch vụ
+            </Button>
+            <Button
+              size="lg"
               variant="outline"
               className="border-border hover:bg-secondary font-semibold px-8"
               onClick={() => scrollToSection('contact')}

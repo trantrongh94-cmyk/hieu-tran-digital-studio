@@ -26,7 +26,7 @@ export function ContactSection() {
             {/* QR Code */}
             <div className="bg-card rounded-xl p-6 shadow-xl border border-border">
               <div className="mb-3 text-center">
-                <p className="text-sm font-semibold text-foreground">QR Zalo hỗ trợ</p>
+                <p className="text-sm font-semibold text-foreground">Liên hệ</p>
               </div>
               <img
                 src="contact-image 2.png"

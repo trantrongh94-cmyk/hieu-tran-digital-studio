@@ -21,9 +21,9 @@ const services = [
     icon: Cpu,
     badge: 'Automation Tools',
     title: 'Tool Hiếu Trần - Automation',
-    description: 'Công cụ tự động hóa giúp tăng tốc quy trình làm việc, tạo nội dung số lượng lớn một cách nhanh chóng',
+    description: 'Công cụ tự động hóa tăng tốc quy trình làm việc, tạo nội dung số lượng lớn',
     features: [
-      'Tool Hiếu Trần hỗ trợ tự động hóa Flow - Grok - Meta',
+      'Tool Hiếu Trần hỗ trợ tự động hóa Flow - Grok - Meta - Whisk',
       'Tăng tốc quy trình làm việc, tiết kiệm thời gian',
       'Tạo video, hình ảnh số lượng lớn bằng prompt AI',
       'Tự động tải xuống khi hoàn thành',
@@ -50,7 +50,7 @@ const services = [
     icon: Headset,
     badge: 'Support & Community',
     title: 'Dịch Vụ Hỗ Trợ & Cộng Đồng',
-    description: 'Hỗ trợ khách hàng tận tình, hướng dẫn chi tiết, giải đáp mọi thắc mắc về dịch vụ và sản phẩm',
+    description: 'Hỗ trợ khách hàng tận tình, chi tiết, giải đáp mọi thắc mắc về dịch vụ và sản phẩm',
     features: [
       'Hỗ trợ qua Zalo: 0337.146.134 (24/7)',
       'Nhóm hỗ trợ và cộng đồng người dùng',
@@ -71,7 +71,7 @@ export function ServicesSection() {
             Dịch Vụ Của Chúng Tôi
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-lg">
-            Giải pháp toàn diện từ livestream chuyên nghiệp, công cụ automation đến phần mềm MMO
+            Giải pháp toàn diện từ Dịch vụ Media - Livestream chuyên nghiệp - Các công cụ Automation - Phần mềm - Tài khoản MMO
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export function ServicesSection() {
 
                     <Link href="https://zalo.me/0337146134" target="_blank">
                       <Button className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
-                        Liên hệ báo giá
+                        Liên hệ để nhận báo giá
                       </Button>
                     </Link>
                   </div>
@@ -138,11 +138,11 @@ export function ServicesSection() {
             <MapPin className="text-accent" size={20} />
           </div>
           <div>
-            <h4 className="font-semibold text-foreground mb-1">Khu vực phục vụ</h4>
+            <h4 className="font-semibold text-foreground mb-1">Khu vực phục vụ chính</h4>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Chúng tôi cung cấp dịch vụ livestream và media tại{' '}
               <span className="text-accent font-medium">Hồ Chí Minh, Bình Dương, Đồng Nai, Bình Phước</span>.
-              Các dịch vụ tool và phần mềm hỗ trợ toàn quốc qua Zalo.
+              Các dịch vụ tool và phần mềm hỗ trợ toàn quốc qua Facebook - Zalo.
             </p>
           </div>
         </div>
