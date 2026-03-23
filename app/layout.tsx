@@ -1,6 +1,6 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'], variable: '--font-inter' });
