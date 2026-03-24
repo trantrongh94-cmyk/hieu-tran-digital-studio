@@ -50,6 +50,34 @@ export function HeroSection() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+      <div className="pointer-events-none absolute right-[30%] top-90 hidden md:block z-10 animate-float-slow">
+      <div className="w-42 rounded-[28px] border border-yellow-500/50 bg-yellow-400/20 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
+          <p className="text-xs uppercase tracking-[0.25em] text-yellow-100/80 mb-3">
+            Studio
+          </p>
+          <h3 className="text-xl font-bold text-yellow-200/100 leading-tight">
+            Hiếu Trần
+          </h3>
+          <p className="mt-2 text-sm leading-6 text-yellow-200/85">
+            Media
+          </p>
+        </div>
+      </div>
+
+      <div className="pointer-events-none absolute right-[12%] top-135 hidden lg:block z-10 animate-float-delay">
+      <div className="w-52 rounded-[28px] border border-yellow-500/50 bg-yellow-400/15 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
+          <p className="text-xs uppercase tracking-[0.25em] text-yellow-100/80 mb-3">
+            Automation
+          </p>
+          <h3 className="text-xl font-bold text-yellow-200/100 leading-tight">
+            Shop MMO
+          </h3>
+          <p className="mt-2 text-sm leading-6 text-yellow-200/85">
+            Sản phẩm giá rẻ uy tín
+          </p>
+        </div>
+      </div>
+
       {/* Tech grid background */}
       <div className="absolute inset-0 pointer-events-none">
         <div
@@ -80,13 +108,13 @@ export function HeroSection() {
           {/* Hero Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance mb-6">
             Đơn Vị Truyền Thông{' '}
-            <span className="text-primary">& Giải Pháp</span>{' '}
-            <span className="text-accent">Tự Động Hóa</span>
+            <span className="text-primary">& Shop</span>{' '}
+            <span className="text-accent">MMO</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-            Cung cấp dịch vụ Livestream, Media, MMO, Tool Automation và các giải pháp
-            hỗ trợ làm việc nhanh, chất lượng, tối ưu chi phí.
+            Chuyên cung cấp các dịch vụ Livestream, Media, MMO, Tool Automation và các giải pháp
+            hỗ trợ làm việc nhanh, chuyên nghiệp
           </p>
 
           {/* CTA Buttons */}
@@ -104,7 +132,7 @@ export function HeroSection() {
               className="bg-cyan-400 hover:bg-cyan-300 text-black font-semibold px-8"
               onClick={() => scrollToSection('pricing')}
             >
-              Xem bảng giá dịch vụ
+              Xem bảng giá
             </Button>
             <Button
               size="lg"
@@ -112,7 +140,7 @@ export function HeroSection() {
               className="border-border hover:bg-secondary font-semibold px-8"
               onClick={() => scrollToSection('contact')}
             >
-              Liên hệ ngay
+              Liên hệ ngay Zalo
             </Button>
           </div>
 

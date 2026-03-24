@@ -17,29 +17,18 @@ export function ContactSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-mono">
             Thank You !
           </h2>
-          <p className="text-accent text-lg">Cảm ơn đã tin tưởng sử dụng dịch vụ của chúng tôi !</p>
+          <p className="text-accent text-lg">Cảm ơn đã tin tưởng</p>
+          <p className="text-accent text-lg">và sử dụng dịch vụ của chúng tôi !</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           {/* Left: QR & Contact Info */}
           <div className="flex flex-col items-center md:items-start space-y-8">
-            {/* QR Code */}
-            <div className="bg-card rounded-xl p-6 shadow-xl border border-border">
-              <div className="mb-3 text-center">
-                <p className="text-sm font-semibold text-foreground">Liên hệ</p>
-              </div>
-              <img
-                src="contact-image 2.png"
-                alt="Zalo QR Code"
-                className="w-48 h-48 object-cover rounded-lg"
-              />
-            </div>
-
             {/* Contact Details */}
             <div className="space-y-4 w-full">
               <div className="flex items-start gap-4">
               <a
-                href="https://zalo.me/0394417714"
+                href="https://zalo.me/0337146134"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 hover:bg-accent/30 transition"
@@ -74,7 +63,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-muted-foreground text-sm">SERVICE AREAS</p>
-                  <p className="text-foreground font-semibold">Hồ Chí Minh - Bình Dương - Đồng Nai - Bình Phướcc</p>
+                  <p className="text-foreground font-semibold">HCM, Bình Dương, Đồng Nai, Bình Phướcc</p>
                 </div>
               </div>
             </div>
@@ -95,8 +84,7 @@ export function ContactSection() {
             {/* Message */}
             <div className="text-center md:text-right space-y-4">
               <p className="text-muted-foreground text-lg">
-                Cảm ơn bạn đã ghé thăm và quan tâm đến các dịch vụ của chúng tôi !
-                Hãy liên hệ qua facebook hoặc zalo để được tư vấn chi tiết nhất !
+                Cảm ơn bạn đã ghé thăm và quan tâm đến các sản phẩm dịch vụ của chúng tôi !
               </p>
               <a
                 href="https://zalo.me/0394417714"
@@ -125,10 +113,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-foreground font-mono font-bold text-lg">H94</h3>
-            <p className="text-muted-foreground text-sm">
-              Dịch vụ livestream, media, tool automation.
-            </p>
+            <h3 className="text-foreground font-mono font-bold text-lg">HIẾU TRẦN MMO</h3>
             <div className="flex gap-4">
               <a 
                 href="https://www.facebook.com/hie.trantrong/"
@@ -159,11 +144,9 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-foreground font-bold">DỊCH VỤ</h4>
             <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><a href="#services" className="hover:text-accent transition">Dịch vụ Livestream</a></li>
-              <li><a href="#" className="hover:text-accent transition">Quay Phim</a></li>
-              <li><a href="#" className="hover:text-accent transition">Chụp Ảnh</a></li>
-              <li><a href="#" className="hover:text-accent transition">Tool Automation - Tool Phone Farm</a></li>
-              <li><a href="#" className="hover:text-accent transition">Dịch vụ MMO</a></li>
+              <li><a href="#services" className="hover:text-accent transition">Dịch vụ Livestream chuyên nghiệp</a></li>
+              <li><a href="#" className="hover:text-accent transition">Dịch vụ Quay Phim - Chụp Ảnh</a></li>
+              <li><a href="#" className="hover:text-accent transition">Dịch vụ MMO - Tool Automation - Tool Phone Farm</a></li>
             </ul>
           </div>
 
@@ -173,8 +156,6 @@ export function Footer() {
             <ul className="space-y-2 text-muted-foreground text-sm">
               <li><a href="#" className="hover:text-accent transition">Về chúng tôi</a></li>
               <li><a href="#pricing" className="hover:text-accent transition">Bảng giá</a></li>
-              <li><a href="#" className="hover:text-accent transition">Tuyển dụng</a></li>
-              <li><a href="#" className="hover:text-accent transition">Blog</a></li>
             </ul>
           </div>
 
@@ -202,7 +183,7 @@ export function Footer() {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm text-center md:text-left">
-              {currentYear} Hieu Tran 94 - Automation - Studio. All rights reserved.
+              {currentYear} Hieu Tran 94 - All rights reserved.
             </p>
             <div className="flex gap-6 text-muted-foreground text-sm">
               <a href="#" className="hover:text-accent transition">Chính sách bảo mật</a>
