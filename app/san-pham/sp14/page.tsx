@@ -20,47 +20,55 @@ export default function ProductDetailPage() {
                 className="h-full w-full object-cover"
               />
             </div>
+
+            <div className="p-6 sm:p-7">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
+                Sản phẩm
+              </p>
+
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               PROXY DÂN CƯ MỸ / US
+              </h1>
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               10 ĐỊA CHỈ IP
+              </h1>
+            </div>
           </div>
 
           <div className="rounded-2xl border border-cyan-400/15 bg-[#03182b] p-5 sm:p-6">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
-              Bảo mật / Kết nối
+              Giá bán
             </p>
 
-            <h1 className="mt-3 text-2xl font-bold leading-tight text-white sm:text-3xl">
-              PROXY DÂN CƯ MỸ / US 10 ĐỊA CHỈ IP
-            </h1>
-
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Giá bán</p>
+              <p className="text-sm text-cyan-200/70">1.000GB / tháng</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
                 26 - 30 USD
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              DUNG LƯỢNG 1.000GB
+              PROXY TĨNH DÙNG RIÊNG
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn / gói:</span> 10 ĐỊA CHỈ IP / THÁNG
+                  <span className="font-semibold text-white">Thời hạn gói:</span> 10 Địa chỉ IP / tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Qua Zalo / Facebook
+                  <span className="font-semibold text-white">Bàn giao:</span> Gửi thông tin proxy qua Zalo / Facebook
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn sử dụng
+                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ cấu hình và hướng dẫn
                 </div>
               </div>
 
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-              <li>Proxy tĩnh dùng riêng</li>
-              <li>Sạch - Tốc độ cao</li>
-              <li>Phù hợp nuôi Gmail, YouTube, Facebook, TikTok</li>
+                  <li>Sạch - Tốc độ cao</li>
+                  <li>Phù hợp nuôi Gmail, YouTube, Facebook, TikTok</li>
                 </ul>
               </div>
             </div>
@@ -89,10 +97,10 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>DUNG LƯỢNG 1.000GB</p>
-            <p>Quyền lợi nổi bật: Proxy tĩnh dùng riêng; Sạch - Tốc độ cao; Phù hợp nuôi Gmail, YouTube, Facebook, TikTok.</p>
-            <p>Thời hạn / gói hiện có: 10 ĐỊA CHỈ IP / THÁNG.</p>
-            <p>Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng.</p>
+            <p>* Gói proxy dân cư Mỹ / US dùng riêng.</p>
+            <p>* Dung lượng 1.000GB</p>
+            <p>* Phù hợp cho nhu cầu nuôi tài khoản và marketing</p>
+            <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
       </div>

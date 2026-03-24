@@ -16,51 +16,59 @@ export default function ProductDetailPage() {
             <div className="aspect-[4/3] bg-[#07243d]">
               <img
                 src="/products/top-6.jpg"
-                alt="Tài khoản SUNO AI PRO PLAN - PREMIER PLAN"
+                alt="TÀI KHOẢN SUNO AI PRO PLAN - PREMIER PLAN"
                 className="h-full w-full object-cover"
               />
+            </div>
+
+            <div className="p-6 sm:p-7">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
+                Sản phẩm
+              </p>
+
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               SUNO AI - 1 THÁNG
+              </h1>
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               PRO PLAN - PREMIER PLAN
+              </h1>
             </div>
           </div>
 
           <div className="rounded-2xl border border-cyan-400/15 bg-[#03182b] p-5 sm:p-6">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
-              Tài khoản số
+              Giá bán
             </p>
 
-            <h1 className="mt-3 text-2xl font-bold leading-tight text-white sm:text-3xl">
-              Tài khoản SUNO AI PRO PLAN - PREMIER PLAN
-            </h1>
-
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Giá bán</p>
+              <p className="text-sm text-cyan-200/70">Tài khoản PRO PLAN - PREMIER PLAN</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                199K - 499K
+                199.000đ - 499.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              TÀI KHOẢN CẤP SẴN 1 THÁNG
+              TÀI KHOẢN CẤP SẴN
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn / gói:</span> SUNO PRO - SUNO PREMIER
+                  <span className="font-semibold text-white">Thời hạn gói:</span> 1 Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Qua Zalo / Facebook
+                  <span className="font-semibold text-white">Bàn giao:</span> Cấp sẵn tài khoản qua Zalo / Facebook
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn sử dụng
+                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
                 </div>
               </div>
 
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-              <li>Tạo Nhạc AI Chuyên Nghiệp</li>
-              <li>10.000 tín dụng mỗi tháng</li>
-              <li>Có thể tạo tối đa 2.000 bài hát</li>
+                  <li>Tạo nhạc bằng AI chuyên nghiệp</li>
+                  <li>Có thể tạo tối đa 2.000 bài hát</li>
                 </ul>
               </div>
             </div>
@@ -89,10 +97,10 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>TÀI KHOẢN CẤP SẴN 1 THÁNG</p>
-            <p>Quyền lợi nổi bật: Tạo Nhạc AI Chuyên Nghiệp; 10.000 tín dụng mỗi tháng; Có thể tạo tối đa 2.000 bài hát.</p>
-            <p>Thời hạn / gói hiện có: SUNO PRO - SUNO PREMIER.</p>
-            <p>Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng.</p>
+            <p>* Suno AI Pro / Premier Plan 1 tháng.</p>
+            <p>* Phù hợp tạo nhạc AI chuyên nghiệp</p>
+            <p>* Lưu ý không tự ý thay đổi thông tin tài khoản</p>
+            <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
       </div>

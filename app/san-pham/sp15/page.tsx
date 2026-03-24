@@ -20,21 +20,30 @@ export default function ProductDetailPage() {
                 className="h-full w-full object-cover"
               />
             </div>
+
+            <div className="p-6 sm:p-7">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
+                Sản phẩm
+              </p>
+
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               TÀI KHOẢN ADOBE - 1 NĂM
+              </h1>
+              <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
+               FULL TOÀN BỘ APP
+              </h1>
+            </div>
           </div>
 
           <div className="rounded-2xl border border-cyan-400/15 bg-[#03182b] p-5 sm:p-6">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300/70">
-              Thiết kế / Sáng tạo
+              Giá bán
             </p>
 
-            <h1 className="mt-3 text-2xl font-bold leading-tight text-white sm:text-3xl">
-              TÀI KHOẢN ADOBE 1 NĂM FULL TOÀN BỘ APP
-            </h1>
-
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Giá bán</p>
+              <p className="text-sm text-cyan-200/70">Tài khoản dùng 1 máy - 2 máy</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                899K - 1.5 TRIỆU
+                899.000đ - 1.500.000đ
               </p>
             </div>
 
@@ -45,22 +54,22 @@ export default function ProductDetailPage() {
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn / gói:</span> SỬ DỤNG 1 MÁY - 2 MÁY
+                  <span className="font-semibold text-white">Thời hạn gói:</span> 1 Năm
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Qua Zalo / Facebook
+                  <span className="font-semibold text-white">Bàn giao:</span> Cấp sẵn tài khoản qua Zalo / Facebook
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn sử dụng
+                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
                 </div>
               </div>
 
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-              <li>Không thay đổi thông tin tài khoản</li>
-              <li>Không thêm số điện thoại xác thực</li>
-              <li>Không login IP Nga hoặc Belarus</li>
+                  <li>Phù hợp người làm thiết kế chuyên nghiệp</li>
+                  <li>Dùng cho 1 máy hoặc 2 máy tùy gói</li>
+                  <li>"NÂNG CẤP CHÍNH CHỦ" 6 tháng 599K liên hệ đặt riêng</li>
                 </ul>
               </div>
             </div>
@@ -89,10 +98,11 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>TÀI KHOẢN CẤP SẴN</p>
-            <p>Quyền lợi nổi bật: Không thay đổi thông tin tài khoản; Không thêm số điện thoại xác thực; Không login IP Nga hoặc Belarus.</p>
-            <p>Thời hạn / gói hiện có: SỬ DỤNG 1 MÁY - 2 MÁY.</p>
-            <p>Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng.</p>
+            <p>* Lưu ý không tự thay đổi thông tin tài khoản</p>
+            <p>* Không thay đổi số điện thoại xác thực</p>
+            <p>* Không login IP Nga hoặc Belarus</p>
+            <p>* Không bảo hành nếu tự ý thay đổi thông tin tài khoản</p>
+            <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
       </div>
