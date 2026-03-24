@@ -128,11 +128,11 @@ const pricingPlans: PricingPlan[] = [
   },
   {
     titleLine1: 'YOUTUBE PREMIUM',
-    titleLine2: '3 THÁNG - 12 THÁNG',
+    titleLine2: '6 THÁNG - 12 THÁNG',
     subtitleLine1: 'ADD FAM CHÍNH CHỦ',
     subtitleLine2: '',
-    price: '169K - 369K',
-    period: '3 THÁNG - 12 THÁNG',
+    price: '199K - 369K',
+    period: '6 THÁNG - 12 THÁNG',
     features: [
       'Xem không quảng cáo',
       'YouTube Music Premium',
