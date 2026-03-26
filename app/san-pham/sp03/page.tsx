@@ -41,14 +41,14 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Tài khoản cấp sẵn - Nâng chính chủ</p>
+              <p className="text-sm text-cyan-200/70">Tài khoản cấp sẵn - Nâng gmail chính chủ</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
                 169.000đ - 269.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              ACC CẤP SẴN HOẶC NÂNG CẤP CHÍNH CHỦ
+              ACC CẤP SẴN - NÂNG CẤP CHÍNH CHỦ
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
@@ -97,9 +97,9 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Thời hạn đăng kí: 1 tháng.</p>
+            <p>* Thời hạn đăng kí: 1 tháng</p>
             <p>* Mua tài khoản cấp sẵn hoặc nâng cấp chính chủ</p>
-            <p>* Cần mua gói dài hạn vui lòng liên hệ riêng</p>
+            <p>* Cần mua gói dài hạn 1 năm vui lòng liên hệ riêng</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>

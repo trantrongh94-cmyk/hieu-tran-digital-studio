@@ -48,13 +48,13 @@ export default function ProductDetailPage() {
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              TẶNG KEY KÍCH HOẠT TOOL AUTOMATION
+            TẶNG KEY KÍCH HOẠT TOOL AUTOMATION HIẾU TRẦN
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> 12 Tháng
+                  <span className="font-semibold text-white">Thời hạn gói:</span> Gemini PRO 12 Tháng
                 </div>
                 <div>
                   <span className="font-semibold text-white">Bàn giao:</span> Gửi Gmail cần nâng cấp qua Zalo hoặc Facebook
@@ -97,7 +97,7 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Thời hạn đăng kí: Combo 1 năm.</p>
+            <p>* Thời hạn đăng kí: Combo 1 gmail / 1 năm.</p>
             <p>* Tặng key kích hoạt Tool Automation Hiếu Trần 30 ngày</p>
             <p>* Tài khoản Gemini Pro - Google Drive 2TB Family</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>

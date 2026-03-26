@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">Lẻ 1 phần mềm hoặc trọn bộ 8 phần mềm</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                799.000đ - 3.900.000đ
+                750.000đ - 3.500.000đ
               </p>
             </div>
 

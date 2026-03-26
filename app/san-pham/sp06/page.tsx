@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">1 máy vĩnh viễn</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                799.000đ
+                749.000đ
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Cài đặt dùng cho 1 máy vĩnh viễn.</p>
+            <p>* Cài đặt tool kích hoạt trên 1 máy tính</p>
             <p>* Quản lý profile không giới hạn</p>
             <p>* Phù hợp nuôi Gmail, YouTube, Facebook</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>

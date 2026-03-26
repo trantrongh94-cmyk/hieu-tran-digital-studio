@@ -48,7 +48,7 @@ export default function ProductDetailPage() {
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              TÀI KHOẢN CẤP SẴN
+              TÀI KHOẢN ĐƯỢC CẤP SẴN
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
@@ -67,7 +67,7 @@ export default function ProductDetailPage() {
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-                  <li>Dùng được cho 2 - 3 thiết bị</li>
+                  <li>Dùng được cho 3 thiết bị</li>
                   <li>Full tính năng Pro - Bảo hành Full</li>
                 </ul>
               </div>
