@@ -72,9 +72,9 @@ const pricingPlans: PricingPlan[] = [
   },
   {
     titleLine1: 'TOOL AUTOMATION',
-    titleLine2: 'COMBO 3',
+    titleLine2: 'COMBO 4',
     subtitleLine1: 'TẠO HÀNG LOẠT ẢNH/VIDEO',
-    subtitleLine2: 'FLOW - GROK - WHISK',
+    subtitleLine2: 'FLOW - GROK - META - GPT',
     subtitleLine3: 'TẶNG APP VOICE + BANANA',
     price: '149K',
     period: 'COMBO 6 THÁNG',
