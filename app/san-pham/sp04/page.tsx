@@ -41,20 +41,20 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Combo 4 Key Tool 4 Tháng</p>
+              <p className="text-sm text-cyan-200/70">Combo 4 Key Tool 3 Tháng</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
                 99.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              TẶNG KEY NẾU BẠN ĐÃ MUA GEMINI PRO CỦA SHOP
+              TẶNG KEY HOẶC GIẢM 20% NẾU BẠN ĐÃ MUA GEMINI PRO CỦA SHOP
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn key:</span> Kích hoạt 4 Tháng trên 1 máy được update tool
+                  <span className="font-semibold text-white">Thời hạn key:</span> Kích hoạt 3 Tháng trên 1 máy được update tool
                 </div>
                 <div>
                   <span className="font-semibold text-white">Bàn giao:</span> Cấp key kích hoạt qua Zalo / Facebook
@@ -67,8 +67,8 @@ export default function ProductDetailPage() {
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-                  <li>AUTO Flow - Grok - Whisk - Meta - Chat GPT</li>
-                  <li>Tặng App Voice AI hoặc App Banana Pro</li>
+                  <li>AUTO Flow - Grok - Meta - Chat GPT</li>
+                  <li>Tặng App Voice AI hoặc App Banana Pro Tự Cấu Hình</li>
                 </ul>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Mua kèm Gemini Pro được giảm giá 30%</p>
+            <p>* Mua kèm Gemini Pro được giảm giá 20%</p>
             <p>* Tạo ảnh, video hàng loạt từ prompt</p>
             <p>* Tự động tạo và tải về máy</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>

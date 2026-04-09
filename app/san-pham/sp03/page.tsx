@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">Tài khoản cấp sẵn - Nâng gmail chính chủ</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                169.000đ - 269.000đ
+                189.000đ - 299.000đ
               </p>
             </div>
 

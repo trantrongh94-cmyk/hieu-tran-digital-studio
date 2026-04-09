@@ -41,9 +41,9 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">1 Năm - 3 Gmail</p>
+              <p className="text-sm text-cyan-200/70">6 tháng - 1 Năm</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                550.000 đ
+                899.000đ - 1.499.000đ
               </p>
             </div>
 
@@ -54,10 +54,10 @@ export default function ProductDetailPage() {
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> Gemini PRO 12 Tháng
+                  <span className="font-semibold text-white">Thời hạn gói:</span> Add Mail Chính Chủ Gemini PRO 6-12 Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Gửi Gmail cần nâng cấp qua Zalo hoặc Facebook
+                  <span className="font-semibold text-white">Tính năng:</span> Gemini Pro, Family driver 2TB , VEO3 1000 Credit/Tháng
                 </div>
                 <div>
                   <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
@@ -67,7 +67,7 @@ export default function ProductDetailPage() {
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-                  <li>Gemini Pro + Add Fam Driver 2TB</li>
+                  <li>Gemini Pro + Family Driver 2TB + VEO3 1000 Credit/Tháng</li>
                   <li>Hỗ trợ 24/7 - Zalo: 0337.146.134</li>
                 </ul>
               </div>
@@ -97,9 +97,9 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Thời hạn đăng kí: Combo 3 gmail / 1 năm</p>
+            <p>* Thời hạn đăng kí: Combo 3 gmail / 6 tháng - 1 năm</p>
             <p>* Tặng key kích hoạt Tool Automation Hiếu Trần 60 ngày</p>
-            <p>* Tài khoản Gemini Pro - Google Drive 2TB Family</p>
+            <p>* Tài khoản Gemini Pro - Drive 2TB Family - VEO3 1000 Credit/Tháng</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
