@@ -27,7 +27,7 @@ export default function ProductDetailPage() {
               </p>
 
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               TÀI KHOẢN SUPER GROK
+               NÂNG CẤP SUPER GROK
               </h1>
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
                1 - 12 THÁNG
@@ -41,14 +41,14 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Tài khoản cấp sẵn 1 tháng - 12 tháng</p>
+              <p className="text-sm text-cyan-200/70">Nâng cấp chính chủ 1 - 12 tháng</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                399.000đ - 3.690.000đ
+                299.000đ - 2.900.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              BẢN CAO CẤP CỦA GROK AI
+              Có loại tài khoản cấp sẵn giá rẻ hơn 30% liên hệ Zalo để mua
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
@@ -57,7 +57,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Thời hạn gói:</span> 1 Tháng / 12 Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Tài khoản cấp sẵn login ok
+                  <span className="font-semibold text-white">Bàn giao:</span> Nâng cấp chính chủ
                 </div>
                 <div>
                   <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
@@ -98,7 +98,7 @@ export default function ProductDetailPage() {
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
             <p>* Thời hạn đăng kí: từ 1 tháng đến 12 tháng.</p>
-            <p>* Tài khoản cấp sẵn uy tín</p>
+            <p>* Nâng cấp tài khoản chính chủ</p>
             <p>* Phù hợp người cần Grok AI bản cao cấp</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>

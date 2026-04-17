@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">Bảo hành 3 ngày - 15 ngày - 30 ngày</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                299K - 499K - 799.000đ
+                299K - 499K - 849.000đ
               </p>
             </div>
 

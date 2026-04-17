@@ -27,7 +27,7 @@ export default function ProductDetailPage() {
               </p>
 
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               PHẦN MỀM GPM LOGIN
+               ACTIVE PHẦN MỀM GPM LOGIN
               </h1>
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
                VĨNH VIỄN
@@ -41,9 +41,9 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">1 máy vĩnh viễn</p>
+              <p className="text-sm text-cyan-200/70">Active 1 máy hoặc Key vĩnh viễn 2 máy</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                749.000đ
+                500.000đ - 1.500.000đ
               </p>
             </div>
 
@@ -57,7 +57,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Thời hạn gói:</span> Vĩnh viễn
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Gửi file cài đặt - key kích hoạt ok
+                  <span className="font-semibold text-white">Bàn giao:</span> Gửi file cài đặt - kích hoạt ok
                 </div>
                 <div>
                   <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và cài đặt qua ultraviewer
@@ -98,7 +98,7 @@ export default function ProductDetailPage() {
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
             <p>* Cài đặt tool kích hoạt trên 1 máy tính</p>
-            <p>* Quản lý profile không giới hạn</p>
+            <p>* Key chính hãng sử dụng được 2 máy</p>
             <p>* Phù hợp nuôi Gmail, YouTube, Facebook</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>

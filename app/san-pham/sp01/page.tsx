@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">6 tháng - 1 Năm</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                899.000đ - 1.499.000đ
+                690.000đ - 990.000đ
               </p>
             </div>
 

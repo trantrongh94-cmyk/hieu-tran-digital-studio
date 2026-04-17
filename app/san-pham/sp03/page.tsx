@@ -43,12 +43,12 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">Tài khoản cấp sẵn - Nâng gmail chính chủ</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                189.000đ - 299.000đ
+                149.000đ - 199.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              ACC CẤP SẴN - NÂNG CẤP CHÍNH CHỦ
+              NÂNG CẤP CHÍNH CHỦ 1 NĂM CHỈ 1.990.000đ TIẾT KIỆM HƠN 400.000đ
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
@@ -57,7 +57,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Thời hạn gói:</span> 1 Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Cấp sẵn hoặc nâng cấp theo nhu cầu qua Zalo / Facebook
+                  <span className="font-semibold text-white">Bàn giao:</span> Cấp sẵn hoặc nâng cấp gmail chính chủ
                 </div>
                 <div>
                   <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
