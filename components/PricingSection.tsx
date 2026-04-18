@@ -74,7 +74,7 @@ const pricingPlans: PricingPlan[] = [
     titleLine1: 'TOOL AUTOMATION',
     titleLine2: 'COMBO 4',
     subtitleLine1: 'TẠO HÀNG LOẠT ẢNH/VIDEO',
-    subtitleLine2: 'FLOW - GROK - META - GPT',
+    subtitleLine2: 'FLOW - SEEDANCE - META - GPT',
     subtitleLine3: 'TẶNG APP VOICE + BANANA',
     price: '149K',
     period: 'COMBO 6 THÁNG',
@@ -179,10 +179,10 @@ const pricingPlans: PricingPlan[] = [
     discount: 'GIẢM 15%',
   },
   {
-    titleLine1: 'SUPER Grok',
-    titleLine2: '1 THÁNG - 12 THÁNG',
-    subtitleLine1: 'TÀI KHOẢN CẤP SẴN UY TÍN',
-    subtitleLine2: '',
+    titleLine1: 'SUPER GROK ',
+    titleLine2: 'TOOL AUTOMATION',
+    subtitleLine1: 'NÂNG CẤP CHÍNH CHỦ',
+    subtitleLine2: 'VÀ TÀI KHOẢN CẤP SẴN',
     price: '399K - 3.690K',
     period: '1 THÁNG - 12 THÁNG',
     features: [
