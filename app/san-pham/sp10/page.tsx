@@ -41,12 +41,12 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">Nâng cấp chính chủ 1 - 12 tháng</p>
+              <p className="text-sm text-cyan-200/70">Nâng cấp chính chủ hoặc tài khoản cấp sẵn</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                299.000đ - 2.900.000đ
+                Chính chủ 299.000đ
               </p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                Tài khoản cấp sẵn 1 tháng 199.000đ bảo hành 7 ngày
+                Tài khoản 199.000đ
               </p>
             </div>
 
@@ -57,13 +57,13 @@ export default function ProductDetailPage() {
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> 1 Tháng / 12 Tháng
+                  <span className="font-semibold text-white">Thời hạn gói:</span> 1 Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Nâng cấp chính chủ
+                  <span className="font-semibold text-white">Loại 1:</span> Nâng cấp chính chủ bảo hành 30 ngày
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
+                  <span className="font-semibold text-white">Loại 2:</span> Tài khoản cấp sẵn bảo hành 7 ngày
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ export default function ProductDetailPage() {
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
                   <li>Không dùng chung, không share</li>
-                  <li>Được bảo hành full</li>
+                  <li>Được bảo hành</li>
                 </ul>
               </div>
             </div>
@@ -100,8 +100,8 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Thời hạn đăng kí: từ 1 tháng đến 12 tháng.</p>
-            <p>* Nâng cấp tài khoản chính chủ</p>
+            <p>* Thời hạn đăng kí: từ 1 tháng</p>
+            <p>* Nâng cấp chính chủ hoặc cấp sẵn tài khoản</p>
             <p>* Phù hợp người cần Grok AI bản cao cấp</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
