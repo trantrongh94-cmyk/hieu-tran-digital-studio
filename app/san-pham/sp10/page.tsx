@@ -30,7 +30,7 @@ export default function ProductDetailPage() {
                NÂNG CẤP SUPER GROK
               </h1>
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               1 - 12 THÁNG
+               KÈM TOOL AUTOMATION
               </h1>
             </div>
           </div>
@@ -45,10 +45,13 @@ export default function ProductDetailPage() {
               <p className="mt-1 text-3xl font-bold text-cyan-300">
                 299.000đ - 2.900.000đ
               </p>
+              <p className="mt-1 text-3xl font-bold text-cyan-300">
+                Tài khoản cấp sẵn 1 tháng 199.000đ bảo hành 7 ngày
+              </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              Có loại tài khoản cấp sẵn giá rẻ hơn 30% liên hệ Zalo để mua
+              TẶNG KÈM TOOL AUTOMATION 3 THÁNG
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">

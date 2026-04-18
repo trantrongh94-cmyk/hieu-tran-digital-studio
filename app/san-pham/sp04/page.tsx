@@ -67,8 +67,8 @@ export default function ProductDetailPage() {
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-                  <li>AUTO Flow - Grok - Meta - Chat GPT</li>
-                  <li>Tặng App Voice AI hoặc App Banana Pro Tự Cấu Hình</li>
+                  <li>AUTO Flow - Meta - Chat GPT - Seedance</li>
+                  <li>Mua kèm Gemini Veo3 Pro giá tốt</li>
                 </ul>
               </div>
             </div>
