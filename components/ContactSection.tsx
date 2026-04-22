@@ -1,6 +1,6 @@
 'use client';
 
-import { Facebook, Mail, MessageCircle, Phone, MapPin, ArrowRight } from 'lucide-react';
+import { Facebook, Mail, MessageCircle, Phone, MapPin, ArrowRight, ShieldAlert, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function ContactSection() {
@@ -13,6 +13,67 @@ export function ContactSection() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
+        <div className="mx-auto mb-16 md:mb-20 max-w-[920px]">
+          {/* Mobile */}
+          <details className="md:hidden overflow-hidden rounded-2xl border border-cyan-400/25 bg-cyan-400/5 shadow-[0_0_20px_rgba(34,211,238,0.08)]">
+            <summary className="list-none cursor-pointer px-4 py-4">
+              <div className="flex items-start gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-red-400/35 bg-red-500/12 shadow-[0_0_20px_rgba(239,68,68,0.18)]">
+                  <ShieldAlert className="h-5 w-5 text-red-300" />
+                </div>
+
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="text-[15px] leading-5 font-semibold text-cyan-200">
+                      Lưu ý trước khi mua sản phẩm MMO
+                    </h3>
+                    <ChevronDown className="h-4 w-4 shrink-0 text-cyan-300/80" />
+                  </div>
+
+                  <p className="mt-1 text-sm leading-5 text-cyan-100/70">
+                    Vui lòng đọc kĩ trước khi mua sản phẩm.
+                  </p>
+                </div>
+              </div>
+            </summary>
+
+            <div className="border-t border-cyan-400/15 px-4 pb-4 pt-3">
+              <ul className="space-y-2 text-[14px] leading-7 text-cyan-100/90">
+                <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+                <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
+                <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+                <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
+              </ul>
+            </div>
+          </details>
+
+          {/* Desktop */}
+          <div className="hidden md:block overflow-hidden rounded-2xl border border-cyan-400/25 bg-cyan-400/6 shadow-[0_0_24px_rgba(34,211,238,0.08)]">
+            <div className="flex items-center gap-3 px-5 py-4">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-red-400/35 bg-red-500/12 shadow-[0_0_20px_rgba(239,68,68,0.18)]">
+                <ShieldAlert className="h-5 w-5 text-red-300" />
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-cyan-200">
+                  Lưu ý quan trọng về sản phẩm MMO
+                </h3>
+                <p className="text-sm text-cyan-100/70">
+                  Vui lòng đọc kỹ phần thông tin bên dưới trước khi mua hoặc sử dụng.
+                </p>
+              </div>
+            </div>
+
+            <div className="border-t border-cyan-400/15 px-5 py-4">
+              <ul className="space-y-2 text-sm leading-7 text-cyan-100/90">
+                <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+                <li>→ Một số sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh "lỗi hoặc bị quét" trong quá trình sử dụng.</li>
+                <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+                <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-mono">
             Thank You !
@@ -27,14 +88,14 @@ export function ContactSection() {
             {/* Contact Details */}
             <div className="space-y-4 w-full">
               <div className="flex items-start gap-4">
-              <a
-                href="https://zalo.me/0337146134"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 hover:bg-accent/30 transition"
-              >
-                <MessageCircle className="w-6 h-6 text-accent" />
-              </a>
+                <a
+                  href="https://zalo.me/0337146134"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 hover:bg-accent/30 transition"
+                >
+                  <MessageCircle className="w-6 h-6 text-accent" />
+                </a>
                 <div>
                   <p className="text-muted-foreground text-sm">CONTACT US</p>
                   <p className="text-foreground font-semibold">Zalo: 0337.146.134</p>
@@ -43,14 +104,14 @@ export function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-              <a
-                href="https://www.facebook.com/hie.trantrong/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 hover:bg-accent/30 transition"
-              >
-                <Facebook className="w-6 h-6 text-accent" />
-              </a>
+                <a
+                  href="https://www.facebook.com/hie.trantrong/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 hover:bg-accent/30 transition"
+                >
+                  <Facebook className="w-6 h-6 text-accent" />
+                </a>
                 <div>
                   <p className="text-muted-foreground text-sm">FACEBOOK</p>
                   <p className="text-foreground font-semibold">Hiếu Trần</p>
@@ -84,10 +145,10 @@ export function ContactSection() {
             {/* Message */}
             <div className="text-center md:text-right space-y-4">
               <p className="text-muted-foreground text-lg">
-                Cảm ơn bạn đã ghé thăm và quan tâm đến các sản phẩm dịch vụ của chúng tôi !
+                Cảm ơn bạn đã quan tâm đến các sản phẩm dịch vụ của chúng tôi !
               </p>
               <a
-                href="https://zalo.me/0394417714"
+                href="https://zalo.me/0337146134"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -115,7 +176,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-foreground font-mono font-bold text-lg">HIẾU TRẦN MMO</h3>
             <div className="flex gap-4">
-              <a 
+              <a
                 href="https://www.facebook.com/hie.trantrong/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -124,7 +185,7 @@ export function Footer() {
                 <Facebook className="w-5 h-5 text-accent" />
               </a>
               <a
-                href="https://zalo.me/0394417714"
+                href="https://zalo.me/0337146134"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center hover:bg-accent/40 transition"

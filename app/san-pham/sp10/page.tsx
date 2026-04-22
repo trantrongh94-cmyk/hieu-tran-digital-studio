@@ -106,6 +106,27 @@ export default function ProductDetailPage() {
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
+
+        <div className="mt-8 overflow-hidden rounded-2xl border border-cyan-400/20 bg-[#03182b]">
+          <div className="border-b border-cyan-400/10 bg-red-500/10 px-5 py-4 sm:px-6">
+            <div className="inline-flex items-center rounded-full border border-red-400/30 bg-red-500/15 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-red-300">
+              Lưu ý quan trọng
+            </div>
+            <h3 className="mt-3 text-lg font-bold text-cyan-200 sm:text-xl">
+              Vui lòng đọc kĩ trước khi mua !
+            </h3>
+            <p className="mt-1 text-sm leading-6 text-slate-300">
+              Tránh hiểu nhầm về sản phẩm và quyền lợi
+            </p>
+          </div>
+
+          <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
+            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowRight, Play, Camera, Cpu, Users, TrendingUp, Zap, Globe } from 'lucide-react'
+import { ArrowRight, Play, Camera, Cpu, Users, TrendingUp, Zap, Globe, ShieldAlert, ChevronDown } from 'lucide-react'
 
 const highlights = [
   {
@@ -51,7 +51,7 @@ export function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       <div className="pointer-events-none absolute right-[30%] top-90 hidden md:block z-10 animate-float-slow">
-      <div className="w-42 rounded-[28px] border border-yellow-500/50 bg-yellow-400/20 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
+        <div className="w-42 rounded-[28px] border border-yellow-500/50 bg-yellow-400/20 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
           <p className="text-xs uppercase tracking-[0.25em] text-yellow-100/80 mb-3">
             Studio
           </p>
@@ -65,7 +65,7 @@ export function HeroSection() {
       </div>
 
       <div className="pointer-events-none absolute right-[12%] top-135 hidden lg:block z-10 animate-float-delay">
-      <div className="w-52 rounded-[28px] border border-yellow-500/50 bg-yellow-400/15 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
+        <div className="w-52 rounded-[28px] border border-yellow-500/50 bg-yellow-400/15 backdrop-blur-xl shadow-[0_10px_30px_rgba(255,190,40,0.08)] p-6">
           <p className="text-xs uppercase tracking-[0.25em] text-yellow-100/80 mb-3">
             Automation
           </p>
@@ -166,6 +166,38 @@ export function HeroSection() {
               <div className="text-sm text-muted-foreground mt-1">Hỗ trợ khách hàng</div>
             </div>
           </div>
+          <details className="group mt-14 max-w-[920px] overflow-hidden rounded-2xl border border-cyan-400/25 bg-cyan-400/6 shadow-[0_0_24px_rgba(34,211,238,0.08)]">
+            <summary className="list-none cursor-pointer px-4 py-4 md:px-5 md:py-4">
+              <div className="flex items-start gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-red-400/35 bg-red-500/12 shadow-[0_0_20px_rgba(239,68,68,0.18)] md:h-11 md:w-11">
+                  <ShieldAlert className="h-5 w-5 text-red-300" />
+                </div>
+
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="text-[15px] leading-5 font-semibold text-cyan-200 md:text-lg">
+                      Lưu ý quan trọng về sản phẩm MMO
+                    </h3>
+
+                    <ChevronDown className="h-4 w-4 shrink-0 text-cyan-300/80 transition-transform duration-300 group-open:rotate-180" />
+                  </div>
+
+                  <p className="mt-1 text-sm leading-5 text-cyan-100/70 md:text-sm">
+                    Vui lòng đọc kỹ thông tin bên dưới trước khi mua hoặc sử dụng !
+                  </p>
+                </div>
+              </div>
+            </summary>
+
+            <div className="border-t border-cyan-400/15 px-4 pb-4 pt-3 md:px-5 md:pb-5 md:pt-4">
+              <ul className="space-y-3 text-[14px] leading-7 text-cyan-100/90 md:text-sm md:leading-7">
+                <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy từng sản phẩm.</li>
+                <li>→ Một số sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
+                <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+                <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
+              </ul>
+            </div>
+          </details>
         </div>
       </div>
     </section>
