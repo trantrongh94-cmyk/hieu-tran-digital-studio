@@ -251,10 +251,10 @@ const topPlans: PricingPlan[] = [
     discount: 'GIẢM 10%',
   },
   {
-    titleLine1: 'TÀI KHOẢNG KLING AI',
-    titleLine2: '1100 - 4500 CREDIT',
-    subtitleLine1: 'TẠO VIDEO AI CHUYÊN NGHIỆP',
-    subtitleLine2: 'DÀI LÊN ĐẾN 2 PHÚT 1080P,  ',
+    titleLine1: 'KLING AI',
+    titleLine2: 'TÀI KHOẢN 1 THÁNG',
+    subtitleLine1: '1100 - 4500 CREDIT',
+    subtitleLine2: '',
     price: '26 - 30 USD',
     period: '10 ĐỊA CHỈ IP / THÁNG',
     features: [
