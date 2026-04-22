@@ -27,10 +27,10 @@ export default function ProductDetailPage() {
               </p>
 
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               PROXY DÂN CƯ MỸ / US
+               TÀI KHOẢN KLING AI
               </h1>
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               10 ĐỊA CHỈ IP
+               1100 - 4500 Credit
               </h1>
             </div>
           </div>
@@ -41,34 +41,34 @@ export default function ProductDetailPage() {
             </p>
 
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
-              <p className="text-sm text-cyan-200/70">1.000GB / tháng</p>
+              <p className="text-sm text-cyan-200/70">Tài khoản Kling AI</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                26 - 30 USD
+                200.000đ - 600.000đ
               </p>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-slate-300 sm:text-base">
-              PROXY TĨNH DÙNG RIÊNG
+             Tài khoản Kling AI Studio sáng tạo AI chuyên nghiệp
             </p>
 
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> 10 Địa chỉ IP / tháng
+                  <span className="font-semibold text-white">Thời hạn gói:</span> 1100 - 4500 credit/tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Gửi thông tin proxy qua Zalo / Facebook
+                  <span className="font-semibold text-white">Bàn giao:</span> email | pass | 2fa (nếu có)
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ cấu hình và hướng dẫn
-                </div>
+                  <span className="font-semibold text-white">Bảo hành:</span> Bảo hành trong vòng 12h sau khi đăng nhập
+                 </div>
               </div>
 
               <div className="mt-4">
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-                  <li>Sạch - Tốc độ cao</li>
-                  <li>Phù hợp nuôi Gmail, YouTube, Facebook, TikTok</li>
+                  <li>Tài khoản Kling AI giá rẻ 1100 - 4500 credit</li>
+                  <li>Kling AI không chỉ là công cụ AI cơ bản mà là một nền tảng sản xuất video chuyên nghiệp</li>
                 </ul>
               </div>
             </div>
@@ -97,9 +97,9 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Gói proxy dân cư Mỹ / US dùng riêng.</p>
-            <p>* Dung lượng 1.000GB</p>
-            <p>* Phù hợp cho nhu cầu nuôi tài khoản và marketing</p>
+            <p>* Tạo được nhiều Video dài đến 2 phút 1080p</p>
+            <p>* 1100 - 4500 credit hỗ trợ nâng cấp gói khi cần</p>
+            <p>* Bảo hành 12h sau khi đăng nhập</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
@@ -118,9 +118,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>

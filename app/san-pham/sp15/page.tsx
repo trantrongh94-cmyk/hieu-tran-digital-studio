@@ -60,7 +60,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Bàn giao:</span> Cấp sẵn tài khoản qua Zalo / Facebook
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
+                  <span className="font-semibold text-white">Bảo hành:</span> Full trong suốt thời gian sử dụng
                 </div>
               </div>
 
@@ -69,7 +69,6 @@ export default function ProductDetailPage() {
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
                   <li>Phù hợp người làm thiết kế chuyên nghiệp</li>
                   <li>Dùng cho 1 máy hoặc 2 máy tùy gói</li>
-                  <li>"NÂNG CẤP CHÍNH CHỦ" 6 tháng 599K liên hệ đặt riêng</li>
                 </ul>
               </div>
             </div>
@@ -101,7 +100,7 @@ export default function ProductDetailPage() {
             <p>* Lưu ý không tự thay đổi thông tin tài khoản</p>
             <p>* Không thay đổi số điện thoại xác thực</p>
             <p>* Không login IP Nga hoặc Belarus</p>
-            <p>* Không bảo hành nếu tự ý thay đổi thông tin tài khoản</p>
+            <p>* Không bảo hành nếu tự ý thay đổi thông tin trên</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
@@ -120,9 +119,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>

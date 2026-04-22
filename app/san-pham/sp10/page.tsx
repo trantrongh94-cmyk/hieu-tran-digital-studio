@@ -71,7 +71,7 @@ export default function ProductDetailPage() {
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
                   <li>Không dùng chung, không share</li>
-                  <li>Được bảo hành</li>
+                  <li>Được bảo hành theo thời hạn</li>
                 </ul>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function ProductDetailPage() {
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
             <p>* Thời hạn đăng kí: từ 1 tháng</p>
-            <p>* Nâng cấp chính chủ hoặc cấp sẵn tài khoản</p>
+            <p>* Nâng cấp chính chủ hoặc tài khoản cấp sẵn</p>
             <p>* Phù hợp người cần Grok AI bản cao cấp</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
@@ -121,9 +121,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>

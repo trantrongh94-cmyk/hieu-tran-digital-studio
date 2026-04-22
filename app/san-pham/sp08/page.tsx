@@ -43,7 +43,7 @@ export default function ProductDetailPage() {
             <div className="mt-5 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <p className="text-sm text-cyan-200/70">6 tháng - 12 tháng</p>
               <p className="mt-1 text-3xl font-bold text-cyan-300">
-                199.000đ - 368.000đ
+                199.000đ - 358.000đ
               </p>
             </div>
 
@@ -60,7 +60,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Bàn giao:</span> Add family vào tài khoản chính chủ
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và hướng dẫn
+                  <span className="font-semibold text-white">Bảo hành:</span> Add gmail mới hoặc đổi fam nếu lỗi
                 </div>
               </div>
 
@@ -68,7 +68,7 @@ export default function ProductDetailPage() {
                 <p className="text-sm font-semibold text-white">Điểm nổi bật</p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
                   <li>YouTube Music Premium</li>
-                  <li>Phát video khi tắt màn hình</li>
+                  <li>Xem không quảng cáo, phát video tắt màn hình</li>
                 </ul>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function ProductDetailPage() {
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
             <p>* Thời hạn đăng kí: 6 tháng hoặc 12 tháng</p>
             <p>* Add fam tài khoản chính chủ</p>
-            <p>* Xem không quảng cáo, nghe nhạc Premium</p>
+            <p>* Được add gmail mới hoặc đổi fam nếu lỗi trong thời gian sử dụng</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
@@ -118,9 +118,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>

@@ -27,7 +27,7 @@ export default function ProductDetailPage() {
               </p>
 
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
-               ACTIVE PHẦN MỀM GPM LOGIN
+               PHẦN MỀM GPM LOGIN
               </h1>
               <h1 className="mt-2 text-2xl font-bold leading-tight text-white sm:text-xl">
                VĨNH VIỄN
@@ -54,13 +54,13 @@ export default function ProductDetailPage() {
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> Vĩnh viễn
+                  <span className="font-semibold text-white">Gói:</span> Bản file active hoặc key kích hoạt
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bàn giao:</span> Gửi file cài đặt - kích hoạt ok
+                  <span className="font-semibold text-white">Bàn giao:</span> Gửi file cài đặt - key kích hoạt
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ tư vấn và cài đặt qua ultraviewer
+                  <span className="font-semibold text-white">Bảo hành:</span> active thành công hoặc hỗ trợ cài lại máy khác trong 7 ngày
                 </div>
               </div>
 
@@ -99,7 +99,7 @@ export default function ProductDetailPage() {
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
             <p>* Cài đặt tool kích hoạt trên 1 máy tính</p>
             <p>* Key chính hãng sử dụng được 2 máy</p>
-            <p>* Phù hợp nuôi Gmail, YouTube, Facebook</p>
+            <p>* Hỗ trợ cài đặt qua ultraview</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
           </div>
         </div>
@@ -118,9 +118,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>

@@ -251,10 +251,10 @@ const topPlans: PricingPlan[] = [
     discount: 'GIẢM 10%',
   },
   {
-    titleLine1: 'PROXY DÂN CƯ',
-    titleLine2: '10 ĐỊA CHỈ IP',
-    subtitleLine1: 'DUNG LƯỢNG 1.000GB',
-    subtitleLine2: 'MỸ, ANH, PHÁP,  ',
+    titleLine1: 'TÀI KHOẢNG KLING AI',
+    titleLine2: '1100 - 4500 CREDIT',
+    subtitleLine1: 'TẠO VIDEO AI CHUYÊN NGHIỆP',
+    subtitleLine2: 'DÀI LÊN ĐẾN 2 PHÚT 1080P,  ',
     price: '26 - 30 USD',
     period: '10 ĐỊA CHỈ IP / THÁNG',
     features: [

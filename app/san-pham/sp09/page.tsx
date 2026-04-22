@@ -54,13 +54,13 @@ export default function ProductDetailPage() {
             <div className="mt-6 rounded-xl border border-cyan-300/10 bg-[#07243d] p-4">
               <div className="space-y-3 text-sm text-slate-300">
                 <div>
-                  <span className="font-semibold text-white">Thời hạn gói:</span> Lẻ 1 vĩnh viễn / Combo 8 vĩnh viễn
+                  <span className="font-semibold text-white">Thời hạn gói:</span> Cài vĩnh viễn
                 </div>
                 <div>
                   <span className="font-semibold text-white">Bàn giao:</span> Gửi file và cài đặt qua ultraviewer
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Hỗ trợ:</span> Hỗ trợ cài đặt và tư vấn
+                  <span className="font-semibold text-white">Bảo hành:</span> Cài đặt acctive thành công hoặc đổi máy khác trong 7 ngày
                 </div>
               </div>
 
@@ -97,7 +97,7 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-bold text-white">Thông tin chi tiết</h2>
 
           <div className="mt-4 space-y-4 text-sm leading-7 text-slate-300 sm:text-base">
-            <p>* Có thể mua lẻ từng phần mềm hoặc mua trọn bộ.</p>
+            <p>* Có thể mua lẻ từng phần mềm hoặc mua trọn bộ 8 phần mềm.</p>
             <p>* Phục vụ seeding bài viết, video, livestream</p>
             <p>* Phù hợp người làm MMO và marketing</p>
             <p>- Liên hệ trực tiếp để được báo giá, xác nhận tình trạng hàng và tư vấn đúng nhu cầu sử dụng !</p>
@@ -118,9 +118,10 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="space-y-3 px-5 py-5 text-sm leading-7 text-slate-300 sm:px-6 sm:text-base">
-            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo chính sách của từng sản phẩm.</li>
+            <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
             <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
-            <li>→ Trong gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
+            <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
             <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>
           </div>
         </div>
