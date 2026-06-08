@@ -60,7 +60,7 @@ export default function ProductDetailPage() {
                   <span className="font-semibold text-white">Tính năng:</span> Gemini Pro, Family driver 2TB , VEO3 1000 Credit/Tháng
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Bảo hành:</span> Bảo hành trong suốt thời gian sử dụng
+                  <span className="font-semibold text-white">Bảo hành:</span> Bảo hành 3 tháng
                 </div>
               </div>
 
