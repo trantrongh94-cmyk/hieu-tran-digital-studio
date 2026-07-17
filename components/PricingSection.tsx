@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 interface PricingPlan {
   titleLine1: string;
   titleLine2?: string;
@@ -28,7 +30,7 @@ const pricingPlans: PricingPlan[] = [
     period: 'COMBO 1 NĂM',
     features: [
       'Gemini Pro + Add Fam Driver 2TB',
-      'Hỗ trợ 24/7 Zalo 0337.146.134',
+      'Hỗ trợ 24/7 Zalo 0812.700.812',
     ],
     cta: 'Xem chi tiết',
     badge: 'HOT',
@@ -46,7 +48,7 @@ const pricingPlans: PricingPlan[] = [
     period: 'COMBO 1 NĂM',
     features: [
       'Gemini Pro + Add Fam Driver 2TB',
-      'Hỗ trợ 24/7 Zalo 0337.146.134',
+      'Hỗ trợ 24/7 Zalo 0812.700.812',
     ],
     cta: 'Xem chi tiết',
     badge: 'ƯU ĐÃI',
@@ -63,7 +65,7 @@ const pricingPlans: PricingPlan[] = [
     period: 'ACC CẤP - CHÍNH CHỦ',
     features: [
       'Nâng cấp tài khoản ChatGPT Plus',
-      'Hỗ trợ 24/7 Zalo 0337.146.134',
+      'Hỗ trợ 24/7 Zalo 0812.700.812',
     ],
     cta: 'Xem chi tiết',
     badge: 'HOT',
@@ -99,7 +101,7 @@ const pricingPlans: PricingPlan[] = [
     features: [
       'Kho tài nguyên Premium',
       'Lưu trữ đám mây lớn',
-      'Hỗ trợ 24/7 Zalo 0337.146.134',
+      'Hỗ trợ 24/7 Zalo 0812.700.812',
     ],
     cta: 'Xem chi tiết',
     badge: 'NEW',
@@ -389,14 +391,12 @@ function ProductCard({ plan }: { plan: PricingPlan }) {
         </div>
 
         <div className="mt-auto pt-3">
-          <a
+          <Link
             href={plan.href || '#'}
-            target="_blank"
-            rel="noreferrer"
             className="inline-flex h-9 w-full items-center justify-center rounded-full border border-cyan-300/20 bg-gradient-to-r from-cyan-400 to-cyan-300 px-3 text-[11px] font-bold text-black shadow-[0_8px_20px_rgba(34,211,238,0.20)] transition-all duration-300 hover:scale-[1.02] hover:from-cyan-300 hover:to-cyan-200"
           >
             Xem chi tiết
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -407,7 +407,7 @@ export function PricingSection() {
   return (
     <section
       id="pricing"
-      className="relative overflow-hidden bg-secondary/30 px-4 py-20 sm:px-6 lg:px-8"
+      className="relative overflow-hidden bg-secondary/30 px-4 pb-24 pt-36 sm:px-6 lg:px-8"
     >
       <div className="absolute inset-0 opacity-5">
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-accent blur-3xl"></div>
@@ -415,6 +415,13 @@ export function PricingSection() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl">
+        <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
+          <Link href="/" className="text-sm font-semibold text-cyan-300 transition hover:text-cyan-200">
+            ← Quay lại trang chủ
+          </Link>
+          <p className="text-sm text-muted-foreground">Chọn sản phẩm để xem giá, thời hạn và chính sách chi tiết.</p>
+        </div>
+
         <div className="mb-16 text-center">
           <h2 className="mb-4 font-mono text-4xl font-bold text-foreground md:text-5xl">
             CÁC SẢN PHẨM MMO

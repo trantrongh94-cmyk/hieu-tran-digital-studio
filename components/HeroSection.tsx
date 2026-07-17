@@ -102,7 +102,7 @@ export function HeroSection() {
           {/* Tag badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/40 bg-primary/10 text-primary text-sm font-medium mb-8">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            Automation - Studio - Media
+            Automation - Studio - Media - Livestream
           </div>
 
           {/* Hero Heading */}
@@ -113,8 +113,8 @@ export function HeroSection() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-            Chuyên cung cấp các dịch vụ Livestream, Media, MMO, Tool Automation và các giải pháp
-            hỗ trợ làm việc nhanh, chuyên nghiệp
+            Cung cấp các dịch vụ Livestream, Media, sản phẩm MMO, Tool Automation và các giải pháp
+            hỗ trợ làm việc chuyên nghiệp !
           </p>
 
           {/* CTA Buttons */}
@@ -124,40 +124,41 @@ export function HeroSection() {
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
               onClick={() => scrollToSection('services')}
             >
-              Xem dịch vụ
+              Xem tất cả dịch vụ
               <ArrowRight className="ml-2" size={18} />
             </Button>
-            <Button
-              size="lg"
-              className="bg-cyan-400 hover:bg-cyan-300 text-black font-semibold px-8"
-              onClick={() => scrollToSection('pricing')}
-            >
-              Xem bảng giá
-            </Button>
+            <Link href="/mmo">
+              <Button
+                size="lg"
+                className="bg-cyan-400 hover:bg-cyan-300 text-black font-semibold px-8"
+              >
+                Sản phẩm số
+              </Button>
+            </Link>
             <Button
               size="lg"
               variant="outline"
               className="border-border hover:bg-secondary font-semibold px-8"
               onClick={() => scrollToSection('contact')}
             >
-              Liên hệ ngay Zalo
+              Liên hệ Zalo
             </Button>
           </div>
 
           {/* Stats row */}
           <div className="flex flex-wrap gap-8">
             <div>
-              <div className="text-3xl font-bold text-primary">5+</div>
+              <div className="text-3xl font-bold text-primary">10+</div>
               <div className="text-sm text-muted-foreground mt-1">Năm kinh nghiệm</div>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <div className="text-3xl font-bold text-primary">200+</div>
+              <div className="text-3xl font-bold text-primary">300+</div>
               <div className="text-sm text-muted-foreground mt-1">Sự kiện đã thực hiện</div>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <div className="text-3xl font-bold text-primary">4</div>
+              <div className="text-3xl font-bold text-primary">5</div>
               <div className="text-sm text-muted-foreground mt-1">Tỉnh thành hỗ trợ</div>
             </div>
             <div className="w-px bg-border" />
@@ -176,7 +177,7 @@ export function HeroSection() {
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center justify-between gap-3">
                     <h3 className="text-[15px] leading-5 font-semibold text-cyan-200 md:text-lg">
-                      Lưu ý quan trọng về sản phẩm MMO
+                      Lưu ý quan trọng về các sản phẩm số
                     </h3>
 
                     <ChevronDown className="h-4 w-4 shrink-0 text-cyan-300/80 transition-transform duration-300 group-open:rotate-180" />
@@ -192,7 +193,7 @@ export function HeroSection() {
             <div className="border-t border-cyan-400/15 px-4 pb-4 pt-3 md:px-5 md:pb-5 md:pt-4">
               <ul className="space-y-3 text-[14px] leading-7 text-cyan-100/90 md:text-sm md:leading-7">
                 <li>→ Các sản phẩm có chính sách bảo hành hoặc không tùy theo từng sản phẩm.</li>
-                <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm crack có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
+                <li>→ Lưu ý vì sản phẩm giá rẻ hoặc phần mềm giá rẻ có thể phát sinh lỗi hoặc bị quét trong quá trình sử dụng.</li>
                 <li>→ Trong thời gian bảo hành, sẽ được hỗ trợ đổi mới, khắc phục hoặc add lại tài khoản/gmail khác tùy trường hợp.</li>
                 <li>→ Sản phẩm đã mua khi shop đã giao hàng sẽ không được hoàn lại tiền.</li>
                 <li>→ Vui lòng đọc kỹ hoặc trao đổi trước khi mua để tránh hiểu nhầm về quyền lợi hỗ trợ.</li>

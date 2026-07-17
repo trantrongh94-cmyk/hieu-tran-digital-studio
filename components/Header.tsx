@@ -1,131 +1,100 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Menu, X } from 'lucide-react'
+
+const navigation = [
+  { label: 'Trang chủ', href: '/' },
+  { label: 'Dịch vụ', href: '/#services' },
+  { label: 'Livestream', href: '/dich-vu/livestream' },
+  { label: 'Sản phẩm MMO', href: '/mmo' },
+  { label: 'Affiliate', href: '/shop' },
+  { label: 'Liên hệ', href: '/#contact' },
+]
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
-    }
+    const handleScroll = () => setIsScrolled(window.scrollY > 20)
+    handleScroll()
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    if (element) {
-      const offset = 80
-      const elementPosition = element.getBoundingClientRect().top
-      const offsetPosition = elementPosition + window.pageYOffset - offset
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      })
-      setIsMobileMenuOpen(false)
-    }
-  }
-
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-background/95 backdrop-blur-md border-b border-border' : 'bg-transparent'
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+        isScrolled || isMobileMenuOpen
+          ? 'border-b border-border bg-background/95 shadow-[0_14px_40px_rgba(0,0,0,0.18)] backdrop-blur-md'
+          : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <button
-            onClick={() => scrollToSection('home')}
-            className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors"
+        <div className="flex h-20 items-center justify-between gap-6">
+          <Link
+            href="/"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="whitespace-nowrap text-lg font-bold text-foreground transition-colors hover:text-primary md:text-xl"
           >
             <span className="text-primary">HIẾU TRẦN</span>
-            <span className="hidden md:inline text-muted-foreground"> - </span>
-            <span className="hidden md:inline text-accent">AUTOMATION</span>
-            <span className="hidden md:inline text-muted-foreground"> - </span>
-            <span className="hidden md:inline">MEDIA</span>
-          </button>
+            <span className="hidden text-muted-foreground md:inline"> - </span>
+            <span className="hidden text-accent md:inline">AUTOMATION</span>
+            <span className="hidden text-muted-foreground md:inline"> - </span>
+            <span className="hidden md:inline">MEDIA - LIVESTREAM</span>
+          </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection('home')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Trang chủ
-            </button>
-            <button
-              onClick={() => scrollToSection('services')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Dịch vụ
-            </button>
-            <button
-              onClick={() => scrollToSection('pricing')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Giá cả
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Liên hệ
-            </button>
-            <Link href="https://zalo.me/0337146134" target="_blank">
-              <Button className="bg-primary hover:bg-primary/90">
-                Liên hệ Zalo
-              </Button>
+          <nav className="hidden items-center gap-5 xl:flex">
+            {navigation.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-semibold text-foreground/90 transition-colors hover:text-primary"
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <Link href="https://zalo.me/0812700812" target="_blank" rel="noreferrer">
+              <Button className="bg-primary hover:bg-primary/90">Liên hệ Zalo</Button>
             </Link>
           </nav>
 
-          {/* Mobile Menu Button */}
           <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-foreground hover:text-primary transition-colors"
-            aria-label="Toggle menu"
+            type="button"
+            onClick={() => setIsMobileMenuOpen((value) => !value)}
+            className="text-foreground transition-colors hover:text-primary xl:hidden"
+            aria-label={isMobileMenuOpen ? 'Đóng menu' : 'Mở menu'}
+            aria-expanded={isMobileMenuOpen}
           >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenuOpen ? <X size={25} /> : <Menu size={25} />}
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden pb-6 flex flex-col gap-4">
-            <button
-              onClick={() => scrollToSection('home')}
-              className="text-foreground hover:text-primary transition-colors font-medium text-left"
+          <nav className="grid gap-2 border-t border-border/70 py-4 xl:hidden">
+            {navigation.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="rounded-lg px-3 py-2.5 text-sm font-semibold text-foreground transition-colors hover:bg-secondary hover:text-primary"
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <Link
+              href="https://zalo.me/0812700812"
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="mt-2"
             >
-              Trang chủ
-            </button>
-            <button
-              onClick={() => scrollToSection('services')}
-              className="text-foreground hover:text-primary transition-colors font-medium text-left"
-            >
-              Dịch vụ
-            </button>
-            <button
-              onClick={() => scrollToSection('pricing')}
-              className="text-foreground hover:text-primary transition-colors font-medium text-left"
-            >
-              Giá cả
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-primary transition-colors font-medium text-left"
-            >
-              Liên hệ
-            </button>
-            <Link href="https://zalo.me/0337146134" target="_blank" className="inline-block">
-              <Button className="bg-primary hover:bg-primary/90 w-full">
-                Liên hệ Zalo
-              </Button>
+              <Button className="w-full bg-primary hover:bg-primary/90">Liên hệ Zalo</Button>
             </Link>
           </nav>
         )}

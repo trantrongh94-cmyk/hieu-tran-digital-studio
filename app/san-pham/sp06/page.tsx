@@ -1,10 +1,10 @@
 export default function ProductDetailPage() {
   return (
     <main className="min-h-screen bg-[#020817] text-white">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 pb-16 pt-32 sm:px-6 lg:px-8">
         <div className="mb-6">
           <a
-            href="/#pricing"
+            href="/mmo"
             className="inline-flex items-center text-sm text-cyan-300 hover:text-cyan-200"
           >
             ← Quay lại gian hàng
@@ -84,7 +84,7 @@ export default function ProductDetailPage() {
               </a>
 
               <a
-                href="/#pricing"
+                href="/mmo"
                 className="inline-flex h-11 items-center justify-center rounded-full border border-cyan-300/20 px-5 text-sm font-bold text-white transition hover:border-cyan-300/40"
               >
                 Xem thêm sản phẩm khác

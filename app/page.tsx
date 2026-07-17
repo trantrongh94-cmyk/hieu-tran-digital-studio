@@ -1,8 +1,7 @@
-import { Header } from '@/components/Header';
-import { HeroSection } from '@/components/HeroSection';
-import { ServicesSection } from '@/components/ServicesSection';
-import { PricingSection } from '@/components/PricingSection';
-import { ContactSection, Footer } from '@/components/ContactSection';
+import { Header } from '@/components/Header'
+import { HeroSection } from '@/components/HeroSection'
+import { ServicesSection } from '@/components/ServicesSection'
+import { ContactSection, Footer } from '@/components/ContactSection'
 
 export default function Home() {
   return (
@@ -10,9 +9,8 @@ export default function Home() {
       <Header />
       <HeroSection />
       <ServicesSection />
-      <PricingSection />
       <ContactSection />
       <Footer />
     </main>
-  );
+  )
 }

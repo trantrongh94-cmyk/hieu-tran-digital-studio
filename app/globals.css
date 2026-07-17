@@ -47,8 +47,8 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
-  --font-mono: 'Space Grotesk', var(--font-space-grotesk), sans-serif;
+  --font-sans: 'Segoe UI', Arial, system-ui, sans-serif;
+  --font-mono: 'Segoe UI', Arial, system-ui, sans-serif;
   --color-brand-navy: var(--brand-navy);
   --color-brand-blue: var(--brand-blue);
   --color-brand-cyan: var(--brand-cyan);
