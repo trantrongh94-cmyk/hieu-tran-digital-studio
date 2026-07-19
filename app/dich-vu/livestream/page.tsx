@@ -61,11 +61,11 @@ const LINKS = {
 
   // Thay bằng link thư mục Google Drive hình ảnh của bạn.
   referenceImages:
-    'https://drive.google.com/drive/folders/1gUZu9HVICQEsKGTSMN-Xo25-2wINAf8j?usp=sharing',
+    'https://drive.google.com/drive/u/0/folders/1gUZu9HVICQEsKGTSMN-Xo25-2w1NAf8j',
 
   // QUAN TRỌNG: thay đường dẫn bên dưới bằng link thư mục video thật.
   referenceVideos:
-    'https://drive.google.com/drive/folders/THAY_MA_THU_MUC_VIDEO',
+    'https://drive.google.com/drive/u/0/folders/1gUZu9HVICQEsKGTSMN-Xo25-2w1NAf8j',
 } as const
 
 /*
