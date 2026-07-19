@@ -32,10 +32,10 @@ export function ContactSection() {
               value="0812.700.812"
             />
             <ContactItem
-              href="mailto:trantrong999@gmail.com"
+              href="mailto:trantrongh94@gmail.com"
               icon={Mail}
               label="Gmail Liên Hệ"
-              value="trantrong999@gmail.com"
+              value="trantrongh94@gmail.com"
             />
             <ContactItem
               href="https://www.facebook.com/hie.trantrong/"
@@ -118,7 +118,7 @@ export function Footer() {
             <div className="flex gap-3">
               <SocialLink href="https://www.facebook.com/hie.trantrong/" icon={Facebook} label="Facebook" />
               <SocialLink href="https://zalo.me/0812700812" icon={MessageCircle} label="Zalo" />
-              <SocialLink href="mailto:trantrong999@gmail.com" icon={Mail} label="Email" />
+              <SocialLink href="mailto:trantrongh94@gmail.com" icon={Mail} label="Email" />
             </div>
           </div>
 
@@ -144,7 +144,7 @@ export function Footer() {
             <h4 className="font-bold text-foreground">LIÊN HỆ</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" />0812.700.812</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" />trantrong999@gmail.com</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" />trantrongh94@gmail.com</li>
               <li className="flex items-start gap-2"><MapPin className="mt-1 h-4 w-4 shrink-0 text-accent" />Hồ Chí Minh và các tỉnh thành lân cận</li>
             </ul>
           </div>
@@ -152,10 +152,30 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-border pt-8 text-sm text-muted-foreground md:flex-row">
           <p>{currentYear} Hieu Tran 94 - All rights reserved.</p>
-          <div className="flex gap-5">
-            <Link href="/" className="transition hover:text-accent">Trang chủ</Link>
-            <Link href="/mmo" className="transition hover:text-accent">Sản phẩm MMO</Link>
-            <Link href="/shop" className="transition hover:text-accent">Affiliate</Link>
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 md:justify-end">
+            <Link href="/" className="transition hover:text-accent">
+              Trang chủ
+            </Link>
+
+            <Link href="/mmo" className="transition hover:text-accent">
+              Sản phẩm MMO
+            </Link>
+
+            <Link href="/shop" className="transition hover:text-accent">
+              Affiliate
+            </Link>
+
+            <Link href="/privacy-policy" className="transition hover:text-accent">
+              Chính sách quyền riêng tư
+            </Link>
+
+            <Link href="/terms-of-service" className="transition hover:text-accent">
+              Điều khoản sử dụng
+            </Link>
+
+            <Link href="/data-deletion" className="transition hover:text-accent">
+              Xóa dữ liệu
+            </Link>
           </div>
         </div>
       </div>
